@@ -1,6 +1,6 @@
 function getTimePeriod() {
-    var teacherName = document.getElementById("teacherName").value;
-    var timePeriod = "";
+    let teacherName = document.getElementById("teacherName").value;
+    let timePeriod = "";
   
     switch (teacherName.toLowerCase()) {
       case "mubeen sir":
